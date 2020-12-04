@@ -59,6 +59,6 @@ def runner
     sum_of_all_cards = hit?(sum_of_all_cards)
     display_card_total(sum_of_all_cards)
   end
-  end_game
+  end_game(sum_of_all_cards)
 end
     
