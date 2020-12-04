@@ -37,7 +37,7 @@ def hit?(number)
 end
 
 def invalid_command
-  p "Please enter a valid command"
+  print "Please enter a valid command"
   prompt_user
   
 end
