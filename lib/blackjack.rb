@@ -19,7 +19,7 @@ def get_user_input
  hit_or_stay = gets.chomp
 end
 
-def end_game
+def end_game(number)
   # code #end_game here
 end
 
