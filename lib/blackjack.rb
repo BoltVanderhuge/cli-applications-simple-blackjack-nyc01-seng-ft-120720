@@ -16,7 +16,7 @@ def prompt_user
 end
 
 def get_user_input
- hit_or_stay = gets.chomp
+ gets.chomp.strip
 end
 
 def end_game(number)
