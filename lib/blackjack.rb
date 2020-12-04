@@ -33,7 +33,7 @@ end
 
 def hit?(number)
   prompt_user
-  get_user_input 
+   hit_or_stay = get_user_input 
   if hit_or_stay == "s"
     then return number
   elsif hit_or_stay == "h"
