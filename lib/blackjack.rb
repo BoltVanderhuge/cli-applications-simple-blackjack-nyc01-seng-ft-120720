@@ -29,7 +29,7 @@ def initial_round
   hand = card one + card_two
   display_card_total(hand)
   return hand
-  
+end
 
 def hit?
   # code hit? here
